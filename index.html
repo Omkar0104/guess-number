@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess My Number</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="game">
+      <header>
+        <div class="container">
+          <main id="again"><button class="again">Play Again</button></main>
+
+          <div class="text" id="text1">Guess</div>
+          <div class="result">?</div>
+          <div class="text" id="text2">Number</div>
+        </div>
+      </header>
+      <div class="img">
+        <img
+          id="img"
+          src="img/confused-person-question-marks.png"
+          alt="confused person"
+        />
+      </div>
+      <div class="logic">
+        <div class="check">
+          <input type="number" id="input-num" />
+          <button id="check">check</button>
+        </div>
+        <div class="info">
+          <div id="guess">Start Guessing...</div>
+          <div id="score">Score:<span class="scoreVal">20</span></div>
+          <div id="highScore">
+            Highscore:<span class="highscoreVal">0</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
